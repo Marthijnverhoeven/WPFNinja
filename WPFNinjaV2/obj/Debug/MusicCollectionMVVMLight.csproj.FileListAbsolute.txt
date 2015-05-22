@@ -1,0 +1,227 @@
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.pdb
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.CodeAnalysisLog.xml
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.lastcodeanalysissucceeded
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.dll
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.dll
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.pdb
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.xml
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.xml
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csprojResolveAssemblyReference.cache
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MainWindow.baml
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\Skins\MainSkin.baml
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MainWindow.g.cs
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\App.g.cs
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.cache
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.lref
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\App.baml
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.g.resources
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.Properties.Resources.resources
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csproj.GenerateResource.Cache
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.exe
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.pdb
+D:\Classes\Development\PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.config
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.config
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.CodeAnalysisLog.xml
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.lastcodeanalysissucceeded
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MainWindow.baml
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\Skins\MainSkin.baml
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MainWindow.g.cs
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\App.g.cs
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.cache
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.lref
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\App.baml
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.g.resources
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.Properties.Resources.resources
+C:\Users\Linksonder\Google Drive\BICT_edit\_Modules\Periode2\06_PROGCS06\Week 2\Uitwerkingen\2.2\MusicCollectionMVVMLight\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csproj.GenerateResource.Cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.config
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.CodeAnalysisLog.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.lastcodeanalysissucceeded
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csprojResolveAssemblyReference.cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MainWindow.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\Skins\MainSkin.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MainWindow.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\App.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.lref
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\App.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.g.resources
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.Properties.Resources.resources
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csproj.GenerateResource.Cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.config
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.CodeAnalysisLog.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.lastcodeanalysissucceeded
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csprojResolveAssemblyReference.cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MainWindow.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\Skins\MainSkin.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MainWindow.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\App.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.lref
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\App.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.g.resources
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.Properties.Resources.resources
+C:\Users\Linksonder\Documents\GitHub\Prog6_Week2_WorkshopB\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csproj.GenerateResource.Cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.config
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.CodeAnalysisLog.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.lastcodeanalysissucceeded
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csprojResolveAssemblyReference.cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MainWindow.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\Skins\MainSkin.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MainWindow.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\App.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.lref
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\App.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.g.resources
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.Properties.Resources.resources
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csproj.GenerateResource.Cache
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\SecondWindow.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\WindowManager.baml
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\SecondWindow.g.cs
+C:\Users\Linksonder\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\WindowManager.g.cs
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.config
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csprojResolveAssemblyReference.cache
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\SecondWindow.baml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MainWindow.baml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\Skins\MainSkin.baml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\WindowManager.baml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\SecondWindow.g.cs
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MainWindow.g.cs
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\WindowManager.g.cs
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\App.g.cs
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.cache
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.lref
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.CodeAnalysisLog.xml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.lastcodeanalysissucceeded
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\Mutzl.MvvmLight.dll
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\App.baml
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.g.resources
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.Properties.Resources.resources
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csproj.GenerateResource.Cache
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Marthijn\Documents\GitHub\Prog6_Uitwerkingen\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.config
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.pdb
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.CodeAnalysisLog.xml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\MusicCollectionMVVMLight.exe.lastcodeanalysissucceeded
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\Mutzl.MvvmLight.dll
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csprojResolveAssemblyReference.cache
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\SecondWindow.baml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MainWindow.baml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\Skins\MainSkin.baml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\WindowManager.baml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\SecondWindow.g.cs
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MainWindow.g.cs
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\WindowManager.g.cs
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\App.g.cs
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.cache
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight_MarkupCompile.lref
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\App.baml
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.g.resources
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.Properties.Resources.resources
+C:\Users\Marthijn\Documents\GitHub\WPFNinja\MusicCollectionMVVMLight\obj\Debug\MusicCollectionMVVMLight.csproj.GenerateResource.Cache

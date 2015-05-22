@@ -1,0 +1,60 @@
+﻿<Window x:Class="MusicCollectionMVVMLight.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:ignore="http://www.ignore.com"
+        mc:Ignorable="d ignore"
+        Height="500"
+        Width="500"
+        Title="MVVM Light Application"
+        Closing="Window_Closing"
+        
+        
+        DataContext="{Binding Song, Source={StaticResource Locator}}">
+
+    
+    
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Skins/MainSkin.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+
+    <StackPanel>
+        <TextBlock Text="Music Collection - Main window" FontSize="28" />
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedSong}" ItemsSource="{Binding Songs}" Margin="5">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Artist" Binding="{Binding Artist}" Width="300" />
+                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <TextBlock Text="Add new song" Margin="5"  FontSize="28" />
+
+        <Grid Margin="5,20,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="200" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+            </Grid.RowDefinitions>
+
+            <TextBlock Text="Id:" Grid.Column="0" Grid.Row="0" />
+            <TextBox MaxLength="5" Grid.Column="1" Grid.Row="0" Text="{Binding Path=SelectedSong.Id, Mode=TwoWay}" />
+
+            <TextBlock Text="Artist:" Grid.Column="0" Grid.Row="1" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="1"  Text="{Binding Path=SelectedSong.Artist, Mode=TwoWay}" />
+
+            <TextBlock Text="Title:" Grid.Column="0" Grid.Row="2" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="2"  Text="{Binding Path=SelectedSong.Title, Mode=TwoWay}" />
+        </Grid>
+        <Button Content="Add" Command="{Binding AddSong}" Width="100"  HorizontalAlignment="Left" Margin="5,20,0,0"/>
+    </StackPanel>
+</Window>
