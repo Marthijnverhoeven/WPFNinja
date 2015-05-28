@@ -93,7 +93,6 @@ C:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\GalaSoft.MvvmLigh
 C:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 C:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\Microsoft.Practices.ServiceLocation.xml
-C:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\obj\Debug\WPFNinjaV2.csprojResolveAssemblyReference.cache
 C:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\obj\Debug\SecondWindow.baml
 C:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\obj\Debug\MainWindow.baml
 C:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\obj\Debug\Skins\MainSkin.baml
