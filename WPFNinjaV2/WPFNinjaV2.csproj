@@ -87,8 +87,11 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\DummyEquipmentItemRepository.cs" />
+    <Compile Include="Model\DummyLoadoutRepository.cs" />
     <Compile Include="Model\EquipmentItem.cs" />
     <Compile Include="Model\IEquipmentItemRepository.cs" />
+    <Compile Include="Model\ILoadout.cs" />
+    <Compile Include="Model\Ninja.cs" />
     <Compile Include="SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>

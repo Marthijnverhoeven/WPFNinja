@@ -11,3 +11,4 @@ namespace WPFNinjaV2.Model
         List<Gear> ToList();
     }
 }
+
