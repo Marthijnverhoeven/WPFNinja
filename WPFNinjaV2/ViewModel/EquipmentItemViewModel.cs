@@ -47,8 +47,8 @@ namespace WPFNinjaV2.ViewModel
 
         public string name
         {
-            get { return _item.name; }
-            set { _item.name = value; OnPropertyChanged(); }
+            get { return "dummy"; } //_item.name; }
+            set {  OnPropertyChanged(); }
         }
 
 

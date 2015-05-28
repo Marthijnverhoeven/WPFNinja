@@ -87,8 +87,13 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\DummyEquipmentItemRepository.cs" />
+    <Compile Include="Model\DummyInventoryRepository.cs" />
+    <Compile Include="Model\DummyLoadoutRepository.cs" />
     <Compile Include="Model\EquipmentItem.cs" />
     <Compile Include="Model\IEquipmentItemRepository.cs" />
+    <Compile Include="Model\IInventory.cs" />
+    <Compile Include="Model\ILoadout.cs" />
+    <Compile Include="Model\Ninja.cs" />
     <Compile Include="SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>
@@ -97,6 +102,7 @@
     <Compile Include="Model\Song.cs" />
     <Compile Include="ViewModel\EquipmentItemListViewModel.cs" />
     <Compile Include="ViewModel\EquipmentItemViewModel.cs" />
+    <Compile Include="ViewModel\InventoryListViewModel.cs" />
     <Compile Include="ViewModel\SongViewModel.cs" />
     <Compile Include="ViewModel\SongListViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
