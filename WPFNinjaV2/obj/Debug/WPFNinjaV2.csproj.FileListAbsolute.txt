@@ -56,7 +56,6 @@ C:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\GalaSoft.MvvmLi
 C:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\GalaSoft.MvvmLight.Platform.xml
 C:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\Microsoft.Practices.ServiceLocation.xml
-C:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\obj\Debug\WPFNinjaV2.csprojResolveAssemblyReference.cache
 C:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\obj\Debug\SecondWindow.baml
 C:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\obj\Debug\MainWindow.baml
 C:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\obj\Debug\Skins\MainSkin.baml
