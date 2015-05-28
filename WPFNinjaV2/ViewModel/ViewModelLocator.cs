@@ -13,7 +13,7 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Ioc;
 using Microsoft.Practices.ServiceLocation;
 
-namespace MusicCollectionMVVMLight.ViewModel
+namespace WPFNinjaV2.ViewModel
 {
     public class ViewModelLocator
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MusicCollectionMVVMLight.Model
+namespace WPFNinjaV2.Model
 {
     public class Song
     {

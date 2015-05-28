@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Input;
 
-namespace MusicCollectionMVVMLight.ViewModel
+namespace WPFNinjaV2.ViewModel
 {
     public class WindowsViewModel : ViewModelBase
     {

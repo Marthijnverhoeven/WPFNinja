@@ -1,8 +1,8 @@
-﻿using MusicCollectionMVVMLight.Model;
+﻿using WPFNinjaV2.Model;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace MusicCollectionMVVMMVVMLight.Model
+namespace WPFNinjaV2.Model
 {
     public class SongViewModel : INotifyPropertyChanged
     {

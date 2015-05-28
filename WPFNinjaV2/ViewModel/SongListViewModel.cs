@@ -1,13 +1,13 @@
 ﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
-using MusicCollectionMVVMLight.Model;
+using WPFNinjaV2.Model;
 using MusicCollectionMVVMMVVMLight.Model;
 using System;
 using System.Collections.ObjectModel;
 using System.Windows.Input;
 using System.Linq;
 
-namespace MusicCollectionMVVMLight.ViewModel
+namespace WPFNinjaV2.ViewModel
 {
     public class SongListViewModel : ViewModelBase
     {
