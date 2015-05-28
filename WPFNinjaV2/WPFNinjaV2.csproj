@@ -100,7 +100,7 @@
     <Compile Include="Model\ISongRepository.cs" />
     <Compile Include="Model\DummySongRepository.cs" />
     <Compile Include="Model\Song.cs" />
-    <Compile Include="ViewModel\InventoryViewModel.cs" />
+    <Compile Include="ViewModel\InventoryListViewModel.cs" />
     <Compile Include="ViewModel\SongViewModel.cs" />
     <Compile Include="ViewModel\SongListViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
