@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace WPFNinjaV2.Model
 {
-    public class DummyLoadoutRepository : ILoadout
+    class DummyInventoryRepository : IInventory
     {
         public List<EquipmentItem> ToList()
         {
-            var loadout = new List<EquipmentItem>();
+            var inventory = new List<EquipmentItem>();
 
-            return loadout;
+            return inventory;
         }
-
     }
 }

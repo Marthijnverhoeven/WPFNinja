@@ -12,7 +12,7 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-05-28 08:51:44Z" FixCategory="NonBreaking">
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-05-28 08:59:47Z" FixCategory="NonBreaking">
              <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\ViewModel" File="SongListViewModel.cs" Line="41">'SongListViewModel.SongListViewModel()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;SongListViewModel..ctor()&#xD;&#xA;SongListViewModel.set_SelectedSong(SongViewModel):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void</Issue>
             </Message>
            </Messages>

@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace WPFNinjaV2.Model
 {
-    public class Ninja
+    interface IInventory
     {
-        private int loadoutID { get; set; }
-
-        public Ninja()
-        {
-        }
+        List<EquipmentItem> ToList();
 
     }
 }
