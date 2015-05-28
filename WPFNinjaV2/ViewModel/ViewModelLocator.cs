@@ -20,6 +20,7 @@ namespace WPFNinjaV2.ViewModel
         static ViewModelLocator()
         {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
+            SimpleIoc.Default.Register<EquipmentItemListViewModel>();
             SimpleIoc.Default.Register<SongListViewModel>();
             SimpleIoc.Default.Register<WindowsViewModel>();
         }
@@ -30,6 +31,13 @@ namespace WPFNinjaV2.ViewModel
             get
             {
                 return ServiceLocator.Current.GetInstance<SongListViewModel>();
+            }
+        }
+        public EquipmentItemListViewModel EquipmentItem
+        {
+            get
+            {
+                return ServiceLocator.Current.GetInstance<EquipmentItemListViewModel>();
             }
         }
 

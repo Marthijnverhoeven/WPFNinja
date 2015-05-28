@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:ignore="http://www.ignore.com"
         mc:Ignorable="d ignore"
-        Height="500"
-        Width="500"
+        Height="800"
+        Width="1200"
         Title="MVVM Light Application"
         Closing="Window_Closing"
         
         
-        DataContext="{Binding Song, Source={StaticResource Locator}}">
+        DataContext="{Binding EquipmentItem, Source={StaticResource Locator}}">
 
     
     
@@ -25,15 +25,19 @@
 
     <StackPanel>
         <TextBlock Text="Music Collection - Main window" FontSize="28" />
-        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedSong}" ItemsSource="{Binding Songs}" Margin="5">
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding items}" Margin="5" Height="400">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
-                <DataGridTextColumn Header="Artist" Binding="{Binding Artist}" Width="300" />
-                <DataGridTextColumn Header="Title" Binding="{Binding Title}" Width="*" />
+                <DataGridTextColumn Header="id" Binding="{Binding id}" Width="40" />
+                <DataGridTextColumn Header="name" Binding="{Binding name}" Width="*" />
+                <DataGridTextColumn Header="type" Binding="{Binding type}" Width="80" />
+                <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="80" />
+                <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="80" />
+                <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="80" />
+                <DataGridTextColumn Header="price" Binding="{Binding price}" Width="80" />
             </DataGrid.Columns>
         </DataGrid>
 
-        <TextBlock Text="Add new song" Margin="5"  FontSize="28" />
+        <TextBlock Text="Add new equipment item" Margin="5"  FontSize="28" />
 
         <Grid Margin="5,20,0,0">
             <Grid.ColumnDefinitions>
@@ -44,17 +48,34 @@
                 <RowDefinition Height="25" />
                 <RowDefinition Height="25" />
                 <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Id:" Grid.Column="0" Grid.Row="0" />
-            <TextBox MaxLength="5" Grid.Column="1" Grid.Row="0" Text="{Binding Path=SelectedSong.Id, Mode=TwoWay}" />
+            <TextBlock Text="id:" Grid.Column="0" Grid.Row="0" />
+            <TextBox MaxLength="5" Grid.Column="1" Grid.Row="0" Text="{Binding Path=SelectedItem.id, Mode=TwoWay}" />
 
-            <TextBlock Text="Artist:" Grid.Column="0" Grid.Row="1" />
-            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="1"  Text="{Binding Path=SelectedSong.Artist, Mode=TwoWay}" />
+            <TextBlock Text="name:" Grid.Column="0" Grid.Row="1" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="1"  Text="{Binding Path=SelectedItem.name, Mode=TwoWay}" />
 
-            <TextBlock Text="Title:" Grid.Column="0" Grid.Row="2" />
-            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="2"  Text="{Binding Path=SelectedSong.Title, Mode=TwoWay}" />
+            <TextBlock Text="type:" Grid.Column="0" Grid.Row="2" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="2"  Text="{Binding Path=SelectedItem.type, Mode=TwoWay}" />
+
+            <TextBlock Text="intelligence:" Grid.Column="0" Grid.Row="3" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="3"  Text="{Binding Path=SelectedItem.intelligence, Mode=TwoWay}" />
+
+            <TextBlock Text="strength:" Grid.Column="0" Grid.Row="4" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="4"  Text="{Binding Path=SelectedItem.strength, Mode=TwoWay}" />
+
+            <TextBlock Text="agility:" Grid.Column="0" Grid.Row="5" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="5"  Text="{Binding Path=SelectedItem.agility, Mode=TwoWay}" />
+
+            <TextBlock Text="price:" Grid.Column="0" Grid.Row="6" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="6"  Text="{Binding Path=SelectedItem.price, Mode=TwoWay}" />
         </Grid>
-        <Button Content="Add" Command="{Binding AddSong}" Width="100"  HorizontalAlignment="Left" Margin="5,20,0,0"/>
+        <Button Content="Add" Command="{Binding AddEquipmentItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="5,20,0,0"/>
+        <Button Content="Clear" Command="{Binding ClearItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="5,20,0,0"/>
     </StackPanel>
 </Window>

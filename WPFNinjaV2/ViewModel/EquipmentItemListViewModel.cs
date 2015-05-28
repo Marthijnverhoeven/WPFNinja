@@ -31,6 +31,8 @@ namespace WPFNinjaV2.ViewModel
 
         public ICommand AddEquipmentItemCommand { get; set; }
 
+        public ICommand ClearItemCommand { get; set; }
+
         //public ICommand RemoveEquipmentItemCommand { get; set; }
 
         public EquipmentItemListViewModel()
@@ -39,9 +41,15 @@ namespace WPFNinjaV2.ViewModel
             var itemList = itemRepository.ToList().Select(s => new EquipmentItemViewModel(s));
 
             AddEquipmentItemCommand = new RelayCommand(AddEquipmentItem, CanAddNewItem);
+            ClearItemCommand = new RelayCommand(ClearItem);
 
             items = new ObservableCollection<EquipmentItemViewModel>(itemList);
             SelectedItem = items.First();
+        }
+        
+        private void ClearItem()
+        {
+            this.SelectedItem = new EquipmentItemViewModel();
         }
 
         private void AddEquipmentItem()
