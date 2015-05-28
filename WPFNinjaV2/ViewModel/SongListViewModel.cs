@@ -1,7 +1,6 @@
 ﻿using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using WPFNinjaV2.Model;
-using MusicCollectionMVVMMVVMLight.Model;
 using System;
 using System.Collections.ObjectModel;
 using System.Windows.Input;

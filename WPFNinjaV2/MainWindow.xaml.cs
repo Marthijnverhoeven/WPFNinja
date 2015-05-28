@@ -1,7 +1,7 @@
 ﻿using System.Windows;
-using MusicCollectionMVVMLight.ViewModel;
+using WPFNinjaV2.ViewModel;
 
-namespace MusicCollectionMVVMLight
+namespace WPFNinjaV2
 {
     /// <summary>
     /// This application's main window.

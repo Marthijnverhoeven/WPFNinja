@@ -1,7 +1,7 @@
 ﻿/*
   In App.xaml:
   <Application.Resources>
-      <vm:ViewModelLocatorTemplate xmlns:vm="clr-namespace:MusicCollectionMVVMLight.ViewModel"
+      <vm:ViewModelLocatorTemplate xmlns:vm="clr-namespace:WPFNinjaV2.ViewModel"
                                    x:Key="Locator" />
   </Application.Resources>
   
