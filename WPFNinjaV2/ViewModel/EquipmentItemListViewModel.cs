@@ -72,6 +72,14 @@ namespace WPFNinjaV2.ViewModel
 
         private bool CanAddNewItem()
         {
+            foreach(EquipmentItemViewModel item in items)
+            {
+                if(item.id == SelectedItem.id)
+                {
+                    return false;
+                }
+            }
+
             if (SelectedItem == null)
                 return false;
 
