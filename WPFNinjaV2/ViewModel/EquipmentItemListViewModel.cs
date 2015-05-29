@@ -17,6 +17,8 @@ namespace WPFNinjaV2.ViewModel
 
         private EquipmentItemViewModel _selectedItem;
 
+        //public ObservableObject _selectedItem { get; set; }
+
         public EquipmentItemViewModel SelectedItem
         {
             get 
@@ -60,6 +62,19 @@ namespace WPFNinjaV2.ViewModel
         private void ClearItem()
         {
             this.SelectedItem = new EquipmentItemViewModel();
+            
+            int id = 0;
+
+            foreach (EquipmentItemViewModel item in items)
+            {
+                if (item.id > id)
+                {
+                    id = item.id;
+                }
+            }
+
+            this.SelectedItem.id = id;
+            this.SelectedItem.type = EquipmentItem.HEAD;
         }
 
         private void DeleteEquipmentItem()
@@ -70,9 +85,19 @@ namespace WPFNinjaV2.ViewModel
 
         private void AddEquipmentItem()
         {
+            int id = 0;
+
+            foreach (EquipmentItemViewModel item in items)
+            {
+                if (item.id > id)
+                {
+                    id = item.id;
+                }
+            }
+
             var eivm = new EquipmentItemViewModel();
 
-            eivm.id = SelectedItem.id;
+            eivm.id = id + 1;
             eivm.type = SelectedItem.type;
             eivm.intelligence = SelectedItem.intelligence;
             eivm.strength = SelectedItem.strength;
@@ -85,12 +110,9 @@ namespace WPFNinjaV2.ViewModel
 
         private bool CanAddNewItem()
         {
-            foreach(EquipmentItemViewModel item in items)
+            if(items.Contains(SelectedItem))
             {
-                if(item.id == SelectedItem.id)
-                {
-                    return false;
-                }
+                return false;
             }
 
             if (SelectedItem == null)
