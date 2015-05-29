@@ -91,6 +91,7 @@
             <TextBox MaxLength="50" Grid.Column="1" Grid.Row="6"  Text="{Binding Path=SelectedItem.price, Mode=TwoWay}" />
         </Grid>
         <Button Content="Add" Command="{Binding AddEquipmentItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="5,20,0,0"/>
-        <Button Content="Clear" Command="{Binding ClearItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="5,20,0,0"/>
+        <Button Content="Clear" Command="{Binding ClearItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="115,-19,0,0"/>
+        <Button Content="Delete" Command="{Binding RemoveEquipmentItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="225,-19,0,0"/>
     </StackPanel>
 </Window>
