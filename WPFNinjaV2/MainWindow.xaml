@@ -1,4 +1,5 @@
 ﻿<Window x:Class="WPFNinjaV2.MainWindow"
+        xmlns:local="clr-namespace:WPFNinjaV2"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -36,12 +37,9 @@
                 <DataGridTextColumn Header="price" Binding="{Binding price}" Width="80" />
             </DataGrid.Columns>
         </DataGrid>
+        <TextBlock Text="Add new equipment item" Margin="5,5,868,5"  FontSize="28" />
 
-
-
-        <TextBlock Text="Add new equipment item" Margin="5"  FontSize="28" />
-
-        <Grid Margin="5,20,0,0">
+        <Grid Margin="5,20,880,0">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="100" />
                 <ColumnDefinition Width="200" />
@@ -54,22 +52,22 @@
                 <RowDefinition Height="25" />
                 <RowDefinition Height="25" />
                 <RowDefinition Height="25" />
+                <RowDefinition Height="25" />
+
             </Grid.RowDefinitions>
 
-            <TextBlock Text="id:" Grid.Column="0" Grid.Row="0" />
-            <TextBox MaxLength="5" Grid.Column="1" Grid.Row="0" Text="{Binding Path=SelectedItem.id, Mode=TwoWay}" />
 
             <TextBlock Text="name:" Grid.Column="0" Grid.Row="1" />
-            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="1"  Text="{Binding Path=SelectedItem.name, Mode=TwoWay}" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="1"  Text="{Binding SelectedItem.name, Mode=TwoWay}" />
 
             <TextBlock Text="type:" Grid.Column="0" Grid.Row="2" />
-            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="2"  Text="{Binding Path=SelectedItem.type, Mode=TwoWay}" />
-            
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="2"  Text="{Binding SelectedItem.type, Mode=TwoWay}" />
+
 
             <!--<ComboBox ItemsSource="{Binding id}" SelectedItem="{Binding SelectedItem.id}"/>-->
 
-            
-            <ComboBox HorizontalAlignment="Left" Width="201" Text="{Binding Path=SelectedItem.type, Mode=TwoWay}" Grid.Column="1" Grid.Row="2">
+
+            <ComboBox HorizontalAlignment="Left" Width="201" Text="{Binding SelectedItem.type, Mode=TwoWay}" Grid.Column="1" Grid.Row="2">
                 <ComboBoxItem Content="Head" Tag="Head" />
                 <ComboBoxItem Content="Shoulders" Tag="Shoulders" />
                 <ComboBoxItem Content="Chest" Tag="Chest" />
@@ -77,20 +75,20 @@
                 <ComboBoxItem Content="Legs" Tag="Legs" />
                 <ComboBoxItem Content="Boots" Tag="Boots" />
             </ComboBox>
-            
+
             <TextBlock Text="intelligence:" Grid.Column="0" Grid.Row="3" />
-            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="3"  Text="{Binding Path=SelectedItem.intelligence, Mode=TwoWay}" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="3"  Text="{Binding SelectedItem.intelligence, Mode=TwoWay}" />
 
             <TextBlock Text="strength:" Grid.Column="0" Grid.Row="4" />
-            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="4"  Text="{Binding Path=SelectedItem.strength, Mode=TwoWay}" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="4"  Text="{Binding SelectedItem.strength, Mode=TwoWay}" />
 
             <TextBlock Text="agility:" Grid.Column="0" Grid.Row="5" />
-            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="5"  Text="{Binding Path=SelectedItem.agility, Mode=TwoWay}" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="5"  Text="{Binding SelectedItem.agility, Mode=TwoWay}" />
 
             <TextBlock Text="price:" Grid.Column="0" Grid.Row="6" />
-            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="6"  Text="{Binding Path=SelectedItem.price, Mode=TwoWay}" />
+            <TextBox MaxLength="50" Grid.Column="1" Grid.Row="6"  Text="{Binding SelectedItem.price, Mode=TwoWay}" />
+            <Button Click="ClearClick" Content="Clear" Command="{Binding ClearItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="0,3,0,0" RenderTransformOrigin="1.71,-1.273" Grid.Row="7"/>
+            <Button x:Name="Add" Content="Add" Command="{Binding AddEquipmentItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="10,3,0,0" Grid.Column="1" Grid.Row="7"/>
         </Grid>
-        <Button Content="Add" Command="{Binding AddEquipmentItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="5,20,0,0"/>
-        <Button Content="Clear" Command="{Binding ClearItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="5,20,0,0"/>
     </StackPanel>
 </Window>
