@@ -13,8 +13,8 @@
         
         DataContext="{Binding EquipmentItem, Source={StaticResource Locator}}">
 
-    
-    
+
+
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -36,6 +36,8 @@
                 <DataGridTextColumn Header="price" Binding="{Binding price}" Width="80" />
             </DataGrid.Columns>
         </DataGrid>
+
+
 
         <TextBlock Text="Add new equipment item" Margin="5"  FontSize="28" />
 
@@ -62,7 +64,20 @@
 
             <TextBlock Text="type:" Grid.Column="0" Grid.Row="2" />
             <TextBox MaxLength="50" Grid.Column="1" Grid.Row="2"  Text="{Binding Path=SelectedItem.type, Mode=TwoWay}" />
+            
 
+            <!--<ComboBox ItemsSource="{Binding id}" SelectedItem="{Binding SelectedItem.id}"/>-->
+
+            
+            <ComboBox HorizontalAlignment="Left" Width="201" Text="{Binding Path=SelectedItem.type, Mode=TwoWay}" Grid.Column="1" Grid.Row="2">
+                <ComboBoxItem Content="Head" Tag="Head" />
+                <ComboBoxItem Content="Shoulders" Tag="Shoulders" />
+                <ComboBoxItem Content="Chest" Tag="Chest" />
+                <ComboBoxItem Content="Belt" Tag="Belt" />
+                <ComboBoxItem Content="Legs" Tag="Legs" />
+                <ComboBoxItem Content="Boots" Tag="Boots" />
+            </ComboBox>
+            
             <TextBlock Text="intelligence:" Grid.Column="0" Grid.Row="3" />
             <TextBox MaxLength="50" Grid.Column="1" Grid.Row="3"  Text="{Binding Path=SelectedItem.intelligence, Mode=TwoWay}" />
 

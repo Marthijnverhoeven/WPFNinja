@@ -1,6 +1,7 @@
 ﻿using WPFNinjaV2.Model;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System;
 
 namespace WPFNinjaV2.ViewModel
 {
@@ -9,7 +10,7 @@ namespace WPFNinjaV2.ViewModel
         private EquipmentItem _item;
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public int type
+        public String type
         {
             get { return _item.type; }
             set { _item.type = value; OnPropertyChanged(); }
@@ -45,10 +46,10 @@ namespace WPFNinjaV2.ViewModel
             set { _item.price = value; OnPropertyChanged(); }
         }
 
-        public string name
+        public String name
         {
-            get { return "dummy"; } //_item.name; }
-            set {  OnPropertyChanged(); }
+            get { return _item.name; }
+            set { _item.name = value; OnPropertyChanged(); }
         }
 
 

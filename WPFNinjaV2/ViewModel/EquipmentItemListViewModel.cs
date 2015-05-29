@@ -12,6 +12,7 @@ namespace WPFNinjaV2.ViewModel
     {
         IEquipmentItemRepository itemRepository;
 
+
         public ObservableCollection<EquipmentItemViewModel> items { get; set; }
 
         private EquipmentItemViewModel _selectedItem;
@@ -30,6 +31,8 @@ namespace WPFNinjaV2.ViewModel
         }
 
         public ICommand AddEquipmentItemCommand { get; set; }
+
+        public ICommand ComboValueChangedCommand { get; set; }
 
         public ICommand ClearItemCommand { get; set; }
 
@@ -73,9 +76,6 @@ namespace WPFNinjaV2.ViewModel
                 return false;
 
             if (SelectedItem.id <= 0)
-                return false;
-
-            if (String.IsNullOrEmpty(SelectedItem.name) || SelectedItem.type < 0 || SelectedItem.type > 5)
                 return false;
 
             return true;

@@ -24,9 +24,13 @@
 
         <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding items}" Margin="5">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="id" Binding="{Binding id}" />
-                <DataGridTextColumn Header="name" Binding="{Binding name}" Width="300" />
-                <DataGridTextColumn Header="type" Binding="{Binding type}" Width="*" />
+                <DataGridTextColumn Header="id" Binding="{Binding id}" Width="40" />
+                <DataGridTextColumn Header="name" Binding="{Binding name}" Width="*" />
+                <DataGridTextColumn Header="type" Binding="{Binding type}" Width="80" />
+                <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="80" />
+                <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="80" />
+                <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="80" />
+                <DataGridTextColumn Header="price" Binding="{Binding price}" Width="80" />
             </DataGrid.Columns>
         </DataGrid>
 

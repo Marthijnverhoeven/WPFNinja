@@ -8,18 +8,19 @@ namespace WPFNinjaV2.Model
 {
     public class EquipmentItem
     {
-        public static int HEAD = 0;
-        public static int SHOULDERS = 1;
-        public static int CHEST = 2;
-        public static int BELT = 3;
-        public static int LEGS = 4;
-        public static int BOOTS = 5;
+        public static String HEAD = "Head";
+        public static String SHOULDERS = "Shoulders";
+        public static String CHEST = "Chest";
+        public static String BELT = "Belt";
+        public static String LEGS = "legs";
+        public static String BOOTS = "Boots";
 
         public int id { get; set; }
-        public int type { get; set; }
+        public String type { get; set; }
         public int intelligence { get; set; }
         public int strength { get; set; }
         public int agility { get; set; }
         public int price { get; set; }
+        public String name { get; set; }
     }
 }
