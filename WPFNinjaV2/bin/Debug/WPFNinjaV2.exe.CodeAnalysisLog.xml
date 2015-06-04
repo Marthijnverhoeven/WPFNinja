@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 12.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<?xml-stylesheet type="text/xsl" href="d:\program files\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
 <FxCopReport Version="12.0">
  <Targets>
-  <Target Name="C:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\WPFNinjaV2.exe">
+  <Target Name="C:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\bin\Debug\WPFNinjaV2.exe">
    <Modules>
     <Module Name="wpfninjav2.exe">
      <Namespaces>
@@ -12,8 +12,8 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-05-29 09:12:49Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\ViewModel" File="EquipmentItemListViewModel.cs" Line="41">'EquipmentItemListViewModel.EquipmentItemListViewModel()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;EquipmentItemListViewModel..ctor()&#xD;&#xA;EquipmentItemListViewModel.set_SelectedItem(EquipmentItemViewModel):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void</Issue>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-06-04 16:18:43Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\ViewModel" File="EquipmentItemListViewModel.cs" Line="43">'EquipmentItemListViewModel.EquipmentItemListViewModel()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;EquipmentItemListViewModel..ctor()&#xD;&#xA;EquipmentItemListViewModel.set_SelectedItem(EquipmentItemViewModel):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void</Issue>
             </Message>
            </Messages>
           </Member>
@@ -23,8 +23,8 @@
          <Members>
           <Member Name="#.ctor()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
            <Messages>
-            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-05-29 09:12:49Z" FixCategory="NonBreaking">
-             <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Jasper\Documents\GitHub\WPFNinja\WPFNinjaV2\ViewModel" File="SongListViewModel.cs" Line="41">'SongListViewModel.SongListViewModel()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;SongListViewModel..ctor()&#xD;&#xA;SongListViewModel.set_SelectedSong(SongViewModel):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void</Issue>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2015-06-04 16:18:43Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="c:\Users\Marthijn\Documents\GitHub\WPFNinja\WPFNinjaV2\ViewModel" File="SongListViewModel.cs" Line="41">'SongListViewModel.SongListViewModel()' contains a call chain that results in a call to a virtual method defined by the class. Review the following call stack for unintended consequences: &#xD;&#xA;&#xD;&#xA;SongListViewModel..ctor()&#xD;&#xA;SongListViewModel.set_SelectedSong(SongViewModel):Void&#xD;&#xA;ObservableObject.RaisePropertyChanged(String):Void</Issue>
             </Message>
            </Messages>
           </Member>

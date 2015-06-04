@@ -45,7 +45,7 @@ namespace WPFNinjaV2.ViewModel
             itemRepository = new DummyEquipmentItemRepository();
             var itemList = itemRepository.ToList().Select(s => new EquipmentItemViewModel(s));
 
-            AddEquipmentItemCommand = new RelayCommand(AddEquipmentItem, CanAddNewItem);
+            AddEquipmentItemCommand = new RelayCommand(AddEquipmentItem); // , CanAddNewItem
             ClearItemCommand = new RelayCommand(ClearItem);
 
             RemoveEquipmentItemCommand = new RelayCommand(DeleteEquipmentItem, CanDeleteItem);
