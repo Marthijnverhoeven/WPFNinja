@@ -80,6 +80,17 @@
                 </DataGrid.Columns>
             </DataGrid>
             <TextBlock FontSize="28" Margin="10,29,-603,0" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2" ><Run Text="Loadout"/><Run Text="s"/></TextBlock>
+            <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedCurrentLoadoutItem}" ItemsSource="{Binding currentLoadout}" Margin="6,11.4,24.8,105" SelectionChanged="DataGrid_SelectionChanged" Grid.Row="4">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="type" Binding="{Binding type}" Width="70" />
+                    <DataGridTextColumn Header="name" Binding="{Binding name}" Width="*" />
+                    <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="60" />
+                    <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="60" />
+                    <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="60" />
+                    <DataGridTextColumn Header="price" Binding="{Binding price}" Width="60" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <TextBlock Text="Inventory" FontSize="28" Margin="6,10,-6.4,263" Grid.ColumnSpan="3" Grid.RowSpan="2" Grid.Row="3" />
         </Grid>
 
 
