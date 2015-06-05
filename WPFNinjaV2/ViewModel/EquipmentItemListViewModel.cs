@@ -12,13 +12,16 @@ namespace WPFNinjaV2.ViewModel
     {
         IEquipmentItemRepository itemRepository;
         IInventory inventoryRepository;
+        ILoadout loadoutRepository;
 
 
         public ObservableCollection<EquipmentItemViewModel> items { get; set; }
         public ObservableCollection<InventoryItemViewModel> inventory { get; set; }
+        public ObservableCollection<LoadoutItemViewModel> loadouts { get; set; }
 
         private EquipmentItemViewModel _selectedItem;
         private InventoryItemViewModel _selectedInventoryItem;
+        private LoadoutItemViewModel _selectedLoadoutItem;
 
         //public ObservableObject _selectedItem { get; set; }
 
@@ -48,6 +51,19 @@ namespace WPFNinjaV2.ViewModel
             }
         }
 
+        public LoadoutItemViewModel SelectedLoadoutItem
+        {
+            get
+            {
+                return _selectedLoadoutItem;
+            }
+            set
+            {
+                _selectedLoadoutItem = value;
+                RaisePropertyChanged();
+            }
+        }
+
         public ICommand AddEquipmentItemCommand { get; set; }
 
         public ICommand ComboValueChangedCommand { get; set; }
@@ -58,17 +74,27 @@ namespace WPFNinjaV2.ViewModel
 
         public ICommand BuyItemCommand { get; set; }
 
+        public ICommand SaveLoadoutCommand { get; set; }
+
+        public ICommand AddToLoadoutCommand { get; set; }
+
+
+
         public EquipmentItemListViewModel()
         {
             itemRepository = new DummyEquipmentItemRepository();
             inventoryRepository = new DummyInventoryRepository();
+            loadoutRepository = new DummyLoadoutRepository();
 
             var itemList = itemRepository.ToList().Select(s => new EquipmentItemViewModel(s));
             var equipmentItemList = inventoryRepository.ToList().Select(s => new InventoryItemViewModel(s));
+            var loadoutItemList = loadoutRepository.ToList().Select(s => new LoadoutItemViewModel(s));
 
             AddEquipmentItemCommand = new RelayCommand(AddEquipmentItem); // , CanAddNewItem
             ClearItemCommand = new RelayCommand(ClearItem);
             BuyItemCommand = new RelayCommand(BuyItem);
+            SaveLoadoutCommand = new RelayCommand(SaveLoadout);
+            AddToLoadoutCommand = new RelayCommand(AddToLoadout);
 
             RemoveEquipmentItemCommand = new RelayCommand(DeleteEquipmentItem, CanDeleteItem);
 
@@ -77,6 +103,9 @@ namespace WPFNinjaV2.ViewModel
 
             inventory = new ObservableCollection<InventoryItemViewModel>(equipmentItemList);
             SelectedInventoryItem = inventory.First();
+
+            loadouts = new ObservableCollection<LoadoutItemViewModel>(loadoutItemList);
+            SelectedLoadoutItem = loadouts.First();
         }
 
         private bool CanDeleteItem()
@@ -166,6 +195,105 @@ namespace WPFNinjaV2.ViewModel
                     iivm.name = SelectedItem.name;
 
                     inventory.Add(iivm);
+                }
+            }
+        }
+
+        private void SaveLoadout()
+        {
+            if(SelectedLoadoutItem != null)
+            {
+                loadouts.Add(SelectedLoadoutItem);
+            }
+        }
+
+        private void AddToLoadout()
+        {
+            if(this.SelectedInventoryItem != null)
+            {
+                if(this.SelectedInventoryItem.type == EquipmentItem.HEAD)
+                {
+                    var item = new EquipmentItem();
+
+                    item.id = SelectedInventoryItem.id;
+                    item.type = SelectedInventoryItem.type;
+                    item.intelligence = SelectedInventoryItem.intelligence;
+                    item.strength = SelectedInventoryItem.strength;
+                    item.agility = SelectedInventoryItem.agility;
+                    item.price = SelectedInventoryItem.price;
+                    item.name = SelectedInventoryItem.name;
+
+                    SelectedLoadoutItem.head = item;
+                }
+                else if (this.SelectedInventoryItem.type == EquipmentItem.SHOULDERS)
+                {
+                    var item = new EquipmentItem();
+
+                    item.id = SelectedInventoryItem.id;
+                    item.type = SelectedInventoryItem.type;
+                    item.intelligence = SelectedInventoryItem.intelligence;
+                    item.strength = SelectedInventoryItem.strength;
+                    item.agility = SelectedInventoryItem.agility;
+                    item.price = SelectedInventoryItem.price;
+                    item.name = SelectedInventoryItem.name;
+
+                    SelectedLoadoutItem.shoulders = item;
+                }
+                else if (this.SelectedInventoryItem.type == EquipmentItem.CHEST)
+                {
+                    var item = new EquipmentItem();
+
+                    item.id = SelectedInventoryItem.id;
+                    item.type = SelectedInventoryItem.type;
+                    item.intelligence = SelectedInventoryItem.intelligence;
+                    item.strength = SelectedInventoryItem.strength;
+                    item.agility = SelectedInventoryItem.agility;
+                    item.price = SelectedInventoryItem.price;
+                    item.name = SelectedInventoryItem.name;
+
+                    SelectedLoadoutItem.chest = item;
+                }
+                else if (this.SelectedInventoryItem.type == EquipmentItem.BELT)
+                {
+                    var item = new EquipmentItem();
+
+                    item.id = SelectedInventoryItem.id;
+                    item.type = SelectedInventoryItem.type;
+                    item.intelligence = SelectedInventoryItem.intelligence;
+                    item.strength = SelectedInventoryItem.strength;
+                    item.agility = SelectedInventoryItem.agility;
+                    item.price = SelectedInventoryItem.price;
+                    item.name = SelectedInventoryItem.name;
+
+                    SelectedLoadoutItem.belt = item;
+                }
+                else if (this.SelectedInventoryItem.type == EquipmentItem.LEGS)
+                {
+                    var item = new EquipmentItem();
+
+                    item.id = SelectedInventoryItem.id;
+                    item.type = SelectedInventoryItem.type;
+                    item.intelligence = SelectedInventoryItem.intelligence;
+                    item.strength = SelectedInventoryItem.strength;
+                    item.agility = SelectedInventoryItem.agility;
+                    item.price = SelectedInventoryItem.price;
+                    item.name = SelectedInventoryItem.name;
+
+                    SelectedLoadoutItem.legs = item;
+                }
+                else if (this.SelectedInventoryItem.type == EquipmentItem.BOOTS)
+                {
+                    var item = new EquipmentItem();
+
+                    item.id = SelectedInventoryItem.id;
+                    item.type = SelectedInventoryItem.type;
+                    item.intelligence = SelectedInventoryItem.intelligence;
+                    item.strength = SelectedInventoryItem.strength;
+                    item.agility = SelectedInventoryItem.agility;
+                    item.price = SelectedInventoryItem.price;
+                    item.name = SelectedInventoryItem.name;
+
+                    SelectedLoadoutItem.boots = item;
                 }
             }
         }

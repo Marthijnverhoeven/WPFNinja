@@ -8,7 +8,7 @@ namespace WPFNinjaV2.Model
 {
     interface ILoadout
     {
-        List<EquipmentItem> ToList();
+        List<LoadoutItem> ToList();
     }
 }
 

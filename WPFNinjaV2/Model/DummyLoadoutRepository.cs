@@ -6,14 +6,24 @@ using System.Threading.Tasks;
 
 namespace WPFNinjaV2.Model
 {
-    public class DummyLoadoutRepository : ILoadout
+    class DummyLoadoutRepository : ILoadout
     {
-        public List<EquipmentItem> ToList()
+        public List<LoadoutItem> ToList()
         {
-            var loadout = new List<EquipmentItem>();
+            var items = new List<LoadoutItem>();
 
-            return loadout;
+            LoadoutItem item = new LoadoutItem();
+            item.name = "Tank";
+            item.head = new EquipmentItem { id = 1, type = EquipmentItem.HEAD, intelligence = 100, strength = 100, agility = 100, price = 100 };
+            item.shoulders = new EquipmentItem { id = 5, type = EquipmentItem.SHOULDERS, intelligence = 100, strength = 100, agility = 100, price = 100 };
+            item.chest = new EquipmentItem { id = 9, type = EquipmentItem.CHEST, intelligence = 100, strength = 100, agility = 100, price = 100 };
+            item.belt = new EquipmentItem { id = 13, type = EquipmentItem.BELT, intelligence = 100, strength = 100, agility = 100, price = 100 };
+            item.legs = new EquipmentItem { id = 17, type = EquipmentItem.LEGS, intelligence = 100, strength = 100, agility = 100, price = 100 };
+            item.boots = new EquipmentItem { id = 21, type = EquipmentItem.BOOTS, intelligence = 100, strength = 100, agility = 100, price = 100 };
+
+            items.Add(item);
+
+            return items;
         }
-
     }
 }

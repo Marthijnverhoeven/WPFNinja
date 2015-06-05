@@ -93,6 +93,7 @@
     <Compile Include="Model\IEquipmentItemRepository.cs" />
     <Compile Include="Model\IInventory.cs" />
     <Compile Include="Model\ILoadout.cs" />
+    <Compile Include="Model\LoadoutItem.cs" />
     <Compile Include="Model\Ninja.cs" />
     <Compile Include="SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
@@ -101,6 +102,7 @@
     <Compile Include="Model\DummySongRepository.cs" />
     <Compile Include="Model\Song.cs" />
     <Compile Include="ViewModel\EquipmentItemListViewModel.cs" />
+    <Compile Include="ViewModel\LoadoutItemViewModel.cs" />
     <Compile Include="ViewModel\InventoryItemViewModel.cs" />
     <Compile Include="ViewModel\EquipmentItemViewModel.cs" />
     <Compile Include="ViewModel\InventoryListViewModel.cs" />
