@@ -12,16 +12,25 @@ namespace WPFNinjaV2.ViewModel
     {
         IEquipmentItemRepository itemRepository;
         IInventory inventoryRepository;
+<<<<<<< HEAD
         ILoadout loadoutRepository;
+=======
+>>>>>>> origin/JasperV2
 
 
         public ObservableCollection<EquipmentItemViewModel> items { get; set; }
         public ObservableCollection<InventoryItemViewModel> inventory { get; set; }
+<<<<<<< HEAD
         public ObservableCollection<LoadoutItemViewModel> loadouts { get; set; }
 
         private EquipmentItemViewModel _selectedItem;
         private InventoryItemViewModel _selectedInventoryItem;
         private LoadoutItemViewModel _selectedLoadoutItem;
+=======
+
+        private EquipmentItemViewModel _selectedItem;
+        private InventoryItemViewModel _selectedInventoryItem;
+>>>>>>> origin/JasperV2
 
         //public ObservableObject _selectedItem { get; set; }
 
@@ -51,6 +60,7 @@ namespace WPFNinjaV2.ViewModel
             }
         }
 
+<<<<<<< HEAD
         public LoadoutItemViewModel SelectedLoadoutItem
         {
             get
@@ -64,6 +74,8 @@ namespace WPFNinjaV2.ViewModel
             }
         }
 
+=======
+>>>>>>> origin/JasperV2
         public ICommand AddEquipmentItemCommand { get; set; }
 
         public ICommand ComboValueChangedCommand { get; set; }
@@ -74,27 +86,39 @@ namespace WPFNinjaV2.ViewModel
 
         public ICommand BuyItemCommand { get; set; }
 
+<<<<<<< HEAD
         public ICommand SaveLoadoutCommand { get; set; }
 
         public ICommand AddToLoadoutCommand { get; set; }
 
 
 
+=======
+>>>>>>> origin/JasperV2
         public EquipmentItemListViewModel()
         {
             itemRepository = new DummyEquipmentItemRepository();
             inventoryRepository = new DummyInventoryRepository();
+<<<<<<< HEAD
             loadoutRepository = new DummyLoadoutRepository();
 
             var itemList = itemRepository.ToList().Select(s => new EquipmentItemViewModel(s));
             var equipmentItemList = inventoryRepository.ToList().Select(s => new InventoryItemViewModel(s));
             var loadoutItemList = loadoutRepository.ToList().Select(s => new LoadoutItemViewModel(s));
+=======
+
+            var itemList = itemRepository.ToList().Select(s => new EquipmentItemViewModel(s));
+            var equipmentItemList = inventoryRepository.ToList().Select(s => new InventoryItemViewModel(s));
+>>>>>>> origin/JasperV2
 
             AddEquipmentItemCommand = new RelayCommand(AddEquipmentItem); // , CanAddNewItem
             ClearItemCommand = new RelayCommand(ClearItem);
             BuyItemCommand = new RelayCommand(BuyItem);
+<<<<<<< HEAD
             SaveLoadoutCommand = new RelayCommand(SaveLoadout);
             AddToLoadoutCommand = new RelayCommand(AddToLoadout);
+=======
+>>>>>>> origin/JasperV2
 
             RemoveEquipmentItemCommand = new RelayCommand(DeleteEquipmentItem, CanDeleteItem);
 
@@ -103,9 +127,12 @@ namespace WPFNinjaV2.ViewModel
 
             inventory = new ObservableCollection<InventoryItemViewModel>(equipmentItemList);
             SelectedInventoryItem = inventory.First();
+<<<<<<< HEAD
 
             loadouts = new ObservableCollection<LoadoutItemViewModel>(loadoutItemList);
             SelectedLoadoutItem = loadouts.First();
+=======
+>>>>>>> origin/JasperV2
         }
 
         private bool CanDeleteItem()
@@ -198,6 +225,7 @@ namespace WPFNinjaV2.ViewModel
                 }
             }
         }
+<<<<<<< HEAD
 
         private void SaveLoadout()
         {
@@ -297,5 +325,7 @@ namespace WPFNinjaV2.ViewModel
                 }
             }
         }
+=======
+>>>>>>> origin/JasperV2
     }
 }

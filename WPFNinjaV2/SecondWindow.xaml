@@ -20,7 +20,35 @@
     </Window.Resources>
 
     <StackPanel>
+<<<<<<< HEAD
         <Grid Height="597">
+=======
+        <TextBlock Text="Music Collection - Second Window" FontSize="28" />
+
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding items}" Margin="5,5,600,5" Height="161">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="type" Binding="{Binding type}" Width="70" />
+                <DataGridTextColumn Header="name" Binding="{Binding name}" Width="*" />
+                <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="60" />
+                <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="60" />
+                <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="60" />
+                <DataGridTextColumn Header="price" Binding="{Binding price}" Width="60" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedInventoryItem}" ItemsSource="{Binding inventory}" Margin="5,5,600,5" Height="176" SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="type" Binding="{Binding type}" Width="70" />
+                <DataGridTextColumn Header="name" Binding="{Binding name}" Width="*" />
+                <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="60" />
+                <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="60" />
+                <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="60" />
+                <DataGridTextColumn Header="price" Binding="{Binding price}" Width="60" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid>
+>>>>>>> origin/JasperV2
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="593" />
                 <ColumnDefinition  />
@@ -33,7 +61,11 @@
                 <RowDefinition Height="37" />
                 <RowDefinition Height="274" />
             </Grid.RowDefinitions>
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> origin/JasperV2
             <!--
             <TextBlock Text="Id:" Grid.Column="0" Grid.Row="0" />
             <Label  Grid.Column="1" Grid.Row="0" Content="{Binding Path=SelectedSong.Id, Mode=TwoWay}" />
@@ -45,6 +77,7 @@
             <Label  Grid.Column="1" Grid.Row="2"  Content="{Binding Path=SelectedSong.Title, Mode=TwoWay}" />
             -->
 
+<<<<<<< HEAD
             <Button Content="Buy" Command="{Binding BuyItemCommand}" Width="100"  HorizontalAlignment="Left" Grid.Column="0" Grid.Row="2" Margin="5,0,0,2"/>
             <Button Content="Equip" Command="{Binding AddToLoadoutCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="2" Margin="10,0,0,2" Grid.Column="1"/>
             <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding items}" Margin="5,0,10,10" Grid.Row="1">
@@ -80,6 +113,10 @@
                 </DataGrid.Columns>
             </DataGrid>
             <TextBlock FontSize="28" Margin="10,29,-603,0" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2" ><Run Text="Loadout"/><Run Text="s"/></TextBlock>
+=======
+            <Button Content="Buy" Command="{Binding BuyItemCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="4" Grid.Column="0"/>
+            <Button Content="Next"       Command="{Binding NextSongCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="4" Grid.Column="2"/>
+>>>>>>> origin/JasperV2
         </Grid>
 
 

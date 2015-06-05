@@ -40,6 +40,8 @@
 
 
         <TextBlock Text="Equipment item management" Margin="5"  FontSize="28" />
+        <TextBlock Text="If you want to add a new item, first press the clear button" Margin="5"  FontSize="16" />
+        <TextBlock Text="To edit or delete an exisiting item, first select the item in the list above" Margin="5"  FontSize="16" />
 
 
 

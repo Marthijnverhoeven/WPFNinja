@@ -27,10 +27,13 @@ namespace WPFNinjaV2
         {
 
         }
+<<<<<<< HEAD
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }
+=======
+>>>>>>> origin/JasperV2
     }
 }
