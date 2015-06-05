@@ -101,6 +101,7 @@
     <Compile Include="Model\DummySongRepository.cs" />
     <Compile Include="Model\Song.cs" />
     <Compile Include="ViewModel\EquipmentItemListViewModel.cs" />
+    <Compile Include="ViewModel\InventoryItemViewModel.cs" />
     <Compile Include="ViewModel\EquipmentItemViewModel.cs" />
     <Compile Include="ViewModel\InventoryListViewModel.cs" />
     <Compile Include="ViewModel\SongViewModel.cs" />

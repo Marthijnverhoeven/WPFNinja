@@ -15,6 +15,5 @@ namespace WPFNinjaV2.ViewModel
 
         IInventory inventoryRepository;
 
-
     }
 }

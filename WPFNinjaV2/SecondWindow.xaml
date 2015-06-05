@@ -22,15 +22,25 @@
     <StackPanel>
         <TextBlock Text="Music Collection - Second Window" FontSize="28" />
 
-        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding items}" Margin="5">
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding items}" Margin="5,5,600,5" Height="161">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="id" Binding="{Binding id}" Width="40" />
+                <DataGridTextColumn Header="type" Binding="{Binding type}" Width="70" />
                 <DataGridTextColumn Header="name" Binding="{Binding name}" Width="*" />
-                <DataGridTextColumn Header="type" Binding="{Binding type}" Width="80" />
-                <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="80" />
-                <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="80" />
-                <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="80" />
-                <DataGridTextColumn Header="price" Binding="{Binding price}" Width="80" />
+                <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="60" />
+                <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="60" />
+                <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="60" />
+                <DataGridTextColumn Header="price" Binding="{Binding price}" Width="60" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedInventoryItem}" ItemsSource="{Binding inventory}" Margin="5,5,600,5" Height="176" SelectionChanged="DataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="type" Binding="{Binding type}" Width="70" />
+                <DataGridTextColumn Header="name" Binding="{Binding name}" Width="*" />
+                <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="60" />
+                <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="60" />
+                <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="60" />
+                <DataGridTextColumn Header="price" Binding="{Binding price}" Width="60" />
             </DataGrid.Columns>
         </DataGrid>
 
@@ -47,7 +57,8 @@
                 <RowDefinition Height="25" />
                 <RowDefinition Height="25" />
             </Grid.RowDefinitions>
-
+            
+            <!--
             <TextBlock Text="Id:" Grid.Column="0" Grid.Row="0" />
             <Label  Grid.Column="1" Grid.Row="0" Content="{Binding Path=SelectedSong.Id, Mode=TwoWay}" />
 
@@ -56,8 +67,9 @@
 
             <TextBlock Text="Title:" Grid.Column="0" Grid.Row="2" />
             <Label  Grid.Column="1" Grid.Row="2"  Content="{Binding Path=SelectedSong.Title, Mode=TwoWay}" />
+            -->
 
-            <Button Content="Previous" Command="{Binding PrevSongCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="4" Grid.Column="0"/>
+            <Button Content="Buy" Command="{Binding BuyItemCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="4" Grid.Column="0"/>
             <Button Content="Next"       Command="{Binding NextSongCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="4" Grid.Column="2"/>
         </Grid>
         

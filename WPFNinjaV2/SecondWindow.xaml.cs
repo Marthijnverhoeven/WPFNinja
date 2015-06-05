@@ -22,5 +22,10 @@ namespace WPFNinjaV2
             e.Cancel = true;
             this.Visibility = Visibility.Hidden;
         }
+
+        private void DataGrid_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
