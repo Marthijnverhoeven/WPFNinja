@@ -72,6 +72,8 @@ namespace WPFNinjaV2.ViewModel
 
         public ICommand RemoveEquipmentItemCommand { get; set; }
 
+        public ICommand RemoveInventoryItemCommand { get; set; }
+
         public ICommand BuyItemCommand { get; set; }
 
         public ICommand SaveLoadoutCommand { get; set; }
@@ -95,6 +97,7 @@ namespace WPFNinjaV2.ViewModel
             BuyItemCommand = new RelayCommand(BuyItem);
             SaveLoadoutCommand = new RelayCommand(SaveLoadout);
             AddToLoadoutCommand = new RelayCommand(AddToLoadout);
+            RemoveInventoryItemCommand = new RelayCommand(RemoveFromInventory);
 
             RemoveEquipmentItemCommand = new RelayCommand(DeleteEquipmentItem, CanDeleteItem);
 
@@ -199,6 +202,12 @@ namespace WPFNinjaV2.ViewModel
             }
         }
 
+        private void RemoveFromInventory()
+        {
+            inventory.Remove(SelectedInventoryItem);
+            SelectedInventoryItem = new InventoryItemViewModel();
+        }
+
         private void SaveLoadout()
         {
             if(SelectedLoadoutItem != null)
@@ -216,7 +225,7 @@ namespace WPFNinjaV2.ViewModel
                     var item = new EquipmentItem();
 
                     item.id = SelectedInventoryItem.id;
-                    item.type = SelectedInventoryItem.type;
+                    item.type = EquipmentItem.HEAD;
                     item.intelligence = SelectedInventoryItem.intelligence;
                     item.strength = SelectedInventoryItem.strength;
                     item.agility = SelectedInventoryItem.agility;
@@ -230,7 +239,7 @@ namespace WPFNinjaV2.ViewModel
                     var item = new EquipmentItem();
 
                     item.id = SelectedInventoryItem.id;
-                    item.type = SelectedInventoryItem.type;
+                    item.type = EquipmentItem.SHOULDERS;
                     item.intelligence = SelectedInventoryItem.intelligence;
                     item.strength = SelectedInventoryItem.strength;
                     item.agility = SelectedInventoryItem.agility;
@@ -244,7 +253,7 @@ namespace WPFNinjaV2.ViewModel
                     var item = new EquipmentItem();
 
                     item.id = SelectedInventoryItem.id;
-                    item.type = SelectedInventoryItem.type;
+                    item.type = EquipmentItem.CHEST;
                     item.intelligence = SelectedInventoryItem.intelligence;
                     item.strength = SelectedInventoryItem.strength;
                     item.agility = SelectedInventoryItem.agility;
@@ -258,7 +267,7 @@ namespace WPFNinjaV2.ViewModel
                     var item = new EquipmentItem();
 
                     item.id = SelectedInventoryItem.id;
-                    item.type = SelectedInventoryItem.type;
+                    item.type = EquipmentItem.BELT;
                     item.intelligence = SelectedInventoryItem.intelligence;
                     item.strength = SelectedInventoryItem.strength;
                     item.agility = SelectedInventoryItem.agility;
@@ -272,7 +281,7 @@ namespace WPFNinjaV2.ViewModel
                     var item = new EquipmentItem();
 
                     item.id = SelectedInventoryItem.id;
-                    item.type = SelectedInventoryItem.type;
+                    item.type = EquipmentItem.LEGS;
                     item.intelligence = SelectedInventoryItem.intelligence;
                     item.strength = SelectedInventoryItem.strength;
                     item.agility = SelectedInventoryItem.agility;
@@ -286,7 +295,7 @@ namespace WPFNinjaV2.ViewModel
                     var item = new EquipmentItem();
 
                     item.id = SelectedInventoryItem.id;
-                    item.type = SelectedInventoryItem.type;
+                    item.type = EquipmentItem.BOOTS;
                     item.intelligence = SelectedInventoryItem.intelligence;
                     item.strength = SelectedInventoryItem.strength;
                     item.agility = SelectedInventoryItem.agility;

@@ -5,7 +5,7 @@
         DataContext="{Binding Manager, Source={StaticResource Locator}}">
 
     <StackPanel Margin="0,0,0,0">
-        <Button Command="{Binding ShowMainWindowCommand}" Height="50">Show Main Window</Button>
-        <Button Command="{Binding ShowSecondWindowCommand}" Height="50">Show Second Window</Button>
+        <Button Command="{Binding ShowMainWindowCommand}" Height="50" Content="Items Admin"/>
+        <Button Command="{Binding ShowSecondWindowCommand}" Height="50" Content="Ninja Manager"/>
     </StackPanel>
 </Window>

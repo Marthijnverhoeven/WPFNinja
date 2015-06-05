@@ -29,9 +29,9 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="33" />
                 <RowDefinition Height="168" />
-                <RowDefinition Height="29" />
-                <RowDefinition Height="37" />
-                <RowDefinition Height="274" />
+                <RowDefinition Height="28" />
+                <RowDefinition Height="34" />
+                <RowDefinition Height="331" />
             </Grid.RowDefinitions>
 
             <!--
@@ -47,6 +47,7 @@
 
             <Button Content="Buy" Command="{Binding BuyItemCommand}" Width="100"  HorizontalAlignment="Left" Grid.Column="0" Grid.Row="2" Margin="5,0,0,2"/>
             <Button Content="Equip" Command="{Binding AddToLoadoutCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="2" Margin="10,0,0,2" Grid.Column="1"/>
+            <Button Content="Delete" Command="{Binding RemoveInventoryItemCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="2" Margin="115,0,0,2" Grid.Column="1"/>
             <DataGrid AutoGenerateColumns="False" IsReadOnly="True" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding items}" Margin="5,0,10,10" Grid.Row="1">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="type" Binding="{Binding type}" Width="70" />
@@ -69,17 +70,59 @@
             </DataGrid>
             <TextBlock Text="Item List&#x9;&#x9;&#x9;&#x9;&#x9;     " FontSize="28" Margin="6,-5,0,0" />
             <TextBlock Text="Inventory" FontSize="28" Margin="10,-5,-603,0" Grid.ColumnSpan="2" Grid.Column="1" />
-            <DataGrid AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding loadouts}" Margin="10,8,0,46" SelectionChanged="DataGrid_SelectionChanged" Grid.Column="1" Grid.Row="4">
+            <DataGrid AutoGenerateColumns="False" IsReadOnly="True" ItemsSource="{Binding loadouts}" SelectedItem="{Binding SelectedLoadoutItem}" Margin="10,8,0,46" SelectionChanged="DataGrid_SelectionChanged" Grid.Column="1" Grid.Row="4">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="type" Binding="{Binding type}" Width="70" />
                     <DataGridTextColumn Header="name" Binding="{Binding name}" Width="*" />
-                    <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="60" />
-                    <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="60" />
-                    <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="60" />
-                    <DataGridTextColumn Header="price" Binding="{Binding price}" Width="60" />
+                    <DataGridTextColumn Header="intelligence" Binding="{Binding intelligence}" Width="80" />
+                    <DataGridTextColumn Header="strength" Binding="{Binding strength}" Width="80" />
+                    <DataGridTextColumn Header="agility" Binding="{Binding agility}" Width="80" />
+                    <DataGridTextColumn Header="value" Binding="{Binding value}" Width="80" />
                 </DataGrid.Columns>
             </DataGrid>
-            <TextBlock FontSize="28" Margin="10,29,-603,0" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="2" Grid.RowSpan="2" ><Run Text="Loadout"/><Run Text="s"/></TextBlock>
+            <TextBlock FontSize="28" Margin="10,0,-603,0" Grid.ColumnSpan="2" Grid.Column="1" Grid.Row="3" ><Run Text="Loadout"/><Run Text="s"/></TextBlock>
+            <Grid Margin="10,10,10,73" Grid.Row="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="200" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                    <RowDefinition Height="30" />
+                </Grid.RowDefinitions>
+
+                <!--<TextBlock Text="id:" Grid.Column="0" Grid.Row="0" />
+            <TextBox MaxLength="5" Grid.Column="1" Grid.Row="0" Text="{Binding Path=SelectedItem.id, Mode=TwoWay}" />-->
+
+                <TextBlock Text="name:" Grid.Column="0" Grid.Row="1" />
+                <TextBox MaxLength="50" Grid.Column="1" Grid.Row="1"  Text="{Binding SelectedLoadoutItem.name, Mode=TwoWay}"/>
+
+                <TextBlock Text="Head:" Grid.Column="0" Grid.Row="2" />
+                <TextBlock Grid.Column="1" Grid.Row="2"  Text="{Binding SelectedLoadoutItem.head.name}" />
+
+
+                <!--<ComboBox ItemsSource="{Binding id}" SelectedItem="{Binding SelectedItem.id}"/>-->
+
+                <TextBlock Text="Shoulders:" Grid.Column="0" Grid.Row="3" />
+                <TextBlock Grid.Column="1" Grid.Row="3"  Text="{Binding SelectedLoadoutItem.shoulders.name}" />
+
+                <TextBlock Text="Chest:" Grid.Column="0" Grid.Row="4" />
+                <TextBlock Grid.Column="1" Grid.Row="4"  Text="{Binding SelectedLoadoutItem.chest.name}"/>
+
+                <TextBlock Text="Belt:" Grid.Column="0" Grid.Row="5" />
+                <TextBlock Grid.Column="1" Grid.Row="5"  Text="{Binding SelectedLoadoutItem.belt.name}"/>
+
+                <TextBlock Text="Legs:" Grid.Column="0" Grid.Row="6" />
+                <TextBlock Grid.Column="1" Grid.Row="6"  Text="{Binding SelectedLoadoutItem.legs.name}"/>
+
+                <TextBlock Text="Boots:" Grid.Column="0" Grid.Row="7" />
+                <TextBlock Grid.Column="1" Grid.Row="7"  Text="{Binding SelectedLoadoutItem.boots.name}"/>
+            </Grid>
         </Grid>
 
 
