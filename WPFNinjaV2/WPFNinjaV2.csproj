@@ -104,10 +104,7 @@
     <Compile Include="Model\DummySongRepository.cs" />
     <Compile Include="Model\Song.cs" />
     <Compile Include="ViewModel\EquipmentItemListViewModel.cs" />
-<<<<<<< HEAD
     <Compile Include="ViewModel\LoadoutItemViewModel.cs" />
-=======
->>>>>>> origin/JasperV2
     <Compile Include="ViewModel\InventoryItemViewModel.cs" />
     <Compile Include="ViewModel\EquipmentItemViewModel.cs" />
     <Compile Include="ViewModel\InventoryListViewModel.cs" />
