@@ -8,7 +8,7 @@ namespace WPFNinjaV2.Model
 {
     public class LoadoutItem
     {
-        public string name { get; set; }
+        public String name { get; set; }
         public EquipmentItem head { get; set; }
         public EquipmentItem shoulders { get; set; }
         public EquipmentItem chest { get; set; }

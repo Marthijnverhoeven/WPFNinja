@@ -107,8 +107,8 @@
                 <RowDefinition Height="25" />
             </Grid.RowDefinitions>
             <Button Content="Delete" Command="{Binding RemoveEquipmentItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="5,0,0,3" Grid.Column="1" Grid.ColumnSpan="2"/>
-            <Button Content="Add" Command="{Binding AddEquipmentItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="0,0,0,3"/>
-            <Button Content="Clear" Command="{Binding ClearItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="10,0,0,3" RenderTransformOrigin="0.61,0.182" Grid.ColumnSpan="2" Grid.Column="2"/>
+            <Button Content="Save" Command="{Binding AddEquipmentItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="0,0,0,3"/>
+            <Button Content="New" Command="{Binding ClearItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="10,0,0,3" RenderTransformOrigin="0.61,0.182" Grid.ColumnSpan="2" Grid.Column="2"/>
         </Grid>
         <!--<Button Content="Add" Command="{Binding AddEquipmentItemCommand}" Width="100"  HorizontalAlignment="Left" Margin="5,20,0,0"/>-->
     </StackPanel>
