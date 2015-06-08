@@ -24,7 +24,7 @@ namespace WPFNinjaV2.Model
             items.Add(item);
 
             LoadoutItem item2 = new LoadoutItem();
-            item2.name = "mage neger";
+            item2.name = "mage";
             item2.head = new EquipmentItem { id = 1, type = EquipmentItem.HEAD, intelligence = 102055160, strength = 100, agility = 100, price = 100, name = "h1" };
             item2.shoulders = new EquipmentItem { id = 5, type = EquipmentItem.SHOULDERS, intelligence = 1075370, strength = 100, agility = 100, price = 100, name = "s1" };
             item2.chest = new EquipmentItem { id = 9, type = EquipmentItem.CHEST, intelligence = 13500, strength = 100, agility = 100, price = 100, name = "c1" };

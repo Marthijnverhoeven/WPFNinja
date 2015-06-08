@@ -13,17 +13,33 @@ namespace WPFNinjaV2.ViewModel
         IEquipmentItemRepository itemRepository;
         IInventory inventoryRepository;
         ILoadout loadoutRepository;
+        INinja ninjaRepository;
 
 
         public ObservableCollection<EquipmentItemViewModel> items { get; set; }
         public ObservableCollection<InventoryItemViewModel> inventory { get; set; }
         public ObservableCollection<LoadoutItemViewModel> loadouts { get; set; }
+        public ObservableCollection<NinjaViewModel> ninja { get; set; }
 
         private EquipmentItemViewModel _selectedItem;
         private InventoryItemViewModel _selectedInventoryItem;
         private LoadoutItemViewModel _selectedLoadoutItem;
+        private NinjaViewModel _selectedNinja;
 
         //public ObservableObject _selectedItem { get; set; }
+
+        public NinjaViewModel SelectedNinja
+        {
+            get
+            {
+                return _selectedNinja;
+            }
+            set
+            {
+                _selectedNinja = value;
+                RaisePropertyChanged();
+            }
+        }
 
         public EquipmentItemViewModel SelectedItem
         {
@@ -80,6 +96,22 @@ namespace WPFNinjaV2.ViewModel
 
         public ICommand AddToLoadoutCommand { get; set; }
 
+        public ICommand ClearLoadoutCommand { get; set; }
+
+        public ICommand DeleteLoadoutCommand { get; set; }
+
+        public ICommand DeleteLoadoutHeadCommand { get; set; }
+
+        public ICommand DeleteLoadoutBeltCommand { get; set; }
+
+        public ICommand DeleteLoadoutChestCommand { get; set; }
+
+        public ICommand DeleteLoadoutShouldersCommand { get; set; }
+
+        public ICommand DeleteLoadoutLegsCommand { get; set; }
+
+        public ICommand DeleteLoadoutBootsCommand { get; set; }
+
 
 
         public EquipmentItemListViewModel()
@@ -87,10 +119,12 @@ namespace WPFNinjaV2.ViewModel
             itemRepository = new DummyEquipmentItemRepository();
             inventoryRepository = new DummyInventoryRepository();
             loadoutRepository = new DummyLoadoutRepository();
+            ninjaRepository = new DummyNinjaRepository();
 
             var itemList = itemRepository.ToList().Select(s => new EquipmentItemViewModel(s));
             var equipmentItemList = inventoryRepository.ToList().Select(s => new InventoryItemViewModel(s));
             var loadoutItemList = loadoutRepository.ToList().Select(s => new LoadoutItemViewModel(s));
+            var ninjaList = ninjaRepository.ToList().Select(s => new NinjaViewModel(s));
 
             AddEquipmentItemCommand = new RelayCommand(AddEquipmentItem); // , CanAddNewItem
             ClearItemCommand = new RelayCommand(ClearItem);
@@ -98,6 +132,15 @@ namespace WPFNinjaV2.ViewModel
             SaveLoadoutCommand = new RelayCommand(SaveLoadout);
             AddToLoadoutCommand = new RelayCommand(AddToLoadout);
             RemoveInventoryItemCommand = new RelayCommand(RemoveFromInventory);
+            ClearLoadoutCommand = new RelayCommand(ClearLoadout);
+            DeleteLoadoutCommand = new RelayCommand(DeleteLoadout);
+
+            DeleteLoadoutBeltCommand = new RelayCommand(DeleteLoadoutBelt);
+            DeleteLoadoutChestCommand = new RelayCommand(DeleteLoadoutChest);
+            DeleteLoadoutHeadCommand = new RelayCommand(DeleteLoadoutHead);
+            DeleteLoadoutShouldersCommand = new RelayCommand(DeleteLoadoutShoulders);
+            DeleteLoadoutLegsCommand = new RelayCommand(DeleteLoadoutLegs);
+            DeleteLoadoutBootsCommand = new RelayCommand(DeleteLoadoutBoots);
 
             RemoveEquipmentItemCommand = new RelayCommand(DeleteEquipmentItem, CanDeleteItem);
 
@@ -109,6 +152,9 @@ namespace WPFNinjaV2.ViewModel
 
             loadouts = new ObservableCollection<LoadoutItemViewModel>(loadoutItemList);
             SelectedLoadoutItem = loadouts.First();
+
+            ninja = new ObservableCollection<NinjaViewModel>(ninjaList);
+            SelectedNinja = ninja.First();
         }
 
         private bool CanDeleteItem()
@@ -142,27 +188,30 @@ namespace WPFNinjaV2.ViewModel
 
         private void AddEquipmentItem()
         {
-            int id = 0;
-
-            foreach (EquipmentItemViewModel item in items)
+            if(!items.Contains(SelectedItem))
             {
-                if (item.id > id)
+                int id = 0;
+
+                foreach (EquipmentItemViewModel item in items)
                 {
-                    id = item.id;
+                    if (item.id > id)
+                    {
+                        id = item.id;
+                    }
                 }
-            }
 
-            var eivm = new EquipmentItemViewModel();
+                var eivm = new EquipmentItemViewModel();
 
-            eivm.id = id + 1;
-            eivm.type = SelectedItem.type;
-            eivm.intelligence = SelectedItem.intelligence;
-            eivm.strength = SelectedItem.strength;
-            eivm.agility = SelectedItem.agility;
-            eivm.price = SelectedItem.price;
-            eivm.name = SelectedItem.name;
+                eivm.id = id + 1;
+                eivm.type = SelectedItem.type;
+                eivm.intelligence = SelectedItem.intelligence;
+                eivm.strength = SelectedItem.strength;
+                eivm.agility = SelectedItem.agility;
+                eivm.price = SelectedItem.price;
+                eivm.name = SelectedItem.name;
 
-            items.Add(eivm);
+                items.Add(eivm);
+            }  
         }
 
         private bool CanAddNewItem()
@@ -185,8 +234,10 @@ namespace WPFNinjaV2.ViewModel
         {
             if(SelectedItem != null)
             {
-                if(true /* ENOUGH MONEY */)
+                if(SelectedNinja.money >= SelectedItem.price)
                 {
+                    SelectedNinja.money = SelectedNinja.money - SelectedItem.price;
+
                     var iivm = new InventoryItemViewModel();
 
                     iivm.id = SelectedItem.id;
@@ -212,8 +263,52 @@ namespace WPFNinjaV2.ViewModel
         {
             if(SelectedLoadoutItem != null)
             {
-                loadouts.Add(SelectedLoadoutItem);
+                if(!loadouts.Contains(SelectedLoadoutItem))
+                {
+                    loadouts.Add(SelectedLoadoutItem);
+                }
             }
+        }
+
+        private void ClearLoadout()
+        {
+            SelectedLoadoutItem = new LoadoutItemViewModel(new LoadoutItem());
+        }
+
+        private void DeleteLoadout()
+        {
+            loadouts.Remove(SelectedLoadoutItem);
+            SelectedLoadoutItem = new LoadoutItemViewModel(new LoadoutItem());
+        }
+
+        private void DeleteLoadoutHead()
+        {
+            SelectedLoadoutItem.head = null;
+        }
+
+        private void DeleteLoadoutBelt()
+        {
+            SelectedLoadoutItem.belt = null;
+        }
+
+        private void DeleteLoadoutChest()
+        {
+            SelectedLoadoutItem.chest = null;
+        }
+
+        private void DeleteLoadoutShoulders()
+        {
+            SelectedLoadoutItem.shoulders = null;
+        }
+
+        private void DeleteLoadoutLegs()
+        {
+            SelectedLoadoutItem.legs = null;
+        }
+
+        private void DeleteLoadoutBoots()
+        {
+            SelectedLoadoutItem.boots = null;
         }
 
         private void AddToLoadout()

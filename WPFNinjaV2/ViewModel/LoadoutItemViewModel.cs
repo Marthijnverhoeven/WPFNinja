@@ -54,22 +54,162 @@ namespace WPFNinjaV2.ViewModel
 
         public int agility
         {
-            get { return _item.belt.agility + _item.boots.agility + _item.chest.agility + _item.head.agility + _item.legs.agility + _item.shoulders.agility; }
+            get 
+            {
+                int count = 0;
+
+                if(_item.belt != null)
+                {
+                    count = count + belt.agility;
+                }
+
+                if(_item.boots != null)
+                {
+                    count = count + boots.agility;
+                }
+
+                if(_item.chest != null)
+                {
+                    count = count + chest.agility;
+                }
+
+                if(_item.head != null)
+                {
+                    count = count + head.agility;
+                }
+
+                if(_item.legs != null)
+                {
+                    count = count + legs.agility;
+                }
+
+                if(_item.shoulders != null)
+                {
+                    count = count + shoulders.agility;
+                }
+
+                return count;
+            }
         }
 
         public int strength
         {
-            get { return _item.belt.strength + _item.boots.strength + _item.chest.strength + _item.head.strength + _item.legs.strength + _item.shoulders.strength; }
+            get
+            {
+                int count = 0;
+
+                if (_item.belt != null)
+                {
+                    count = count + belt.strength;
+                }
+
+                if (_item.boots != null)
+                {
+                    count = count + boots.strength;
+                }
+
+                if (_item.chest != null)
+                {
+                    count = count + chest.strength;
+                }
+
+                if (_item.head != null)
+                {
+                    count = count + head.strength;
+                }
+
+                if (_item.legs != null)
+                {
+                    count = count + legs.strength;
+                }
+
+                if (_item.shoulders != null)
+                {
+                    count = count + shoulders.strength;
+                }
+
+                return count;
+            }
         }
 
         public int intelligence
         {
-            get { return _item.belt.intelligence + _item.boots.intelligence + _item.chest.intelligence + _item.head.intelligence + _item.legs.intelligence + _item.shoulders.intelligence; }
+            get
+            {
+                int count = 0;
+
+                if (_item.belt != null)
+                {
+                    count = count + belt.intelligence;
+                }
+
+                if (_item.boots != null)
+                {
+                    count = count + boots.intelligence;
+                }
+
+                if (_item.chest != null)
+                {
+                    count = count + chest.intelligence;
+                }
+
+                if (_item.head != null)
+                {
+                    count = count + head.intelligence;
+                }
+
+                if (_item.legs != null)
+                {
+                    count = count + legs.intelligence;
+                }
+
+                if (_item.shoulders != null)
+                {
+                    count = count + shoulders.intelligence;
+                }
+
+                return count;
+            }
         }
 
         public int value
         {
-            get { return _item.belt.price + _item.boots.price + _item.chest.price + _item.head.price + _item.legs.price + _item.shoulders.price; }
+            get
+            {
+                int count = 0;
+
+                if (_item.belt != null)
+                {
+                    count = count + belt.price;
+                }
+
+                if (_item.boots != null)
+                {
+                    count = count + boots.price;
+                }
+
+                if (_item.chest != null)
+                {
+                    count = count + chest.price;
+                }
+
+                if (_item.head != null)
+                {
+                    count = count + head.price;
+                }
+
+                if (_item.legs != null)
+                {
+                    count = count + legs.price;
+                }
+
+                if (_item.shoulders != null)
+                {
+                    count = count + shoulders.price;
+                }
+
+                return count;
+            }
         }
 
         public LoadoutItemViewModel(LoadoutItem item)
