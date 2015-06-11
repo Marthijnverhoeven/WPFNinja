@@ -132,7 +132,7 @@
                 <Button Content="Clear Legs" Command="{Binding DeleteLoadoutLegsCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="5" Margin="5,0,0,4" Grid.Column="2"/>
                 <Button Content="Clear Boots" Command="{Binding DeleteLoadoutBootsCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="6" Margin="5,0,0,4" Grid.Column="2"/>
             </Grid>
-            <Button Content="Clear" Command="{Binding ClearLoadoutCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="4" Margin="10,258,0,46"/>
+            <Button Content="New" Command="{Binding ClearLoadoutCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="4" Margin="10,258,0,46"/>
             <Button Content="Save" Command="{Binding SaveLoadoutCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="4" Margin="115,258,0,46"/>
             <TextBlock FontSize="28" Margin="10,3,-10,328" Grid.ColumnSpan="3" Grid.Row="3" Grid.RowSpan="2" Text="Current Loadout" />
             <Button Content="Delete" Command="{Binding DeleteLoadoutCommand}" Width="100"  HorizontalAlignment="Left"  Grid.Row="4" Margin="10,258,0,46" Grid.Column="1"/>

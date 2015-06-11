@@ -21,18 +21,11 @@ namespace WPFNinjaV2.ViewModel
         {
             ServiceLocator.SetLocatorProvider(() => SimpleIoc.Default);
             SimpleIoc.Default.Register<EquipmentItemListViewModel>();
-            SimpleIoc.Default.Register<SongListViewModel>();
             SimpleIoc.Default.Register<WindowsViewModel>();
         }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Performance", "CA1822:MarkMembersAsStatic", Justification = "This non-static member is needed for data binding purposes.")]
-        public SongListViewModel Song
-        {
-            get
-            {
-                return ServiceLocator.Current.GetInstance<SongListViewModel>();
-            }
-        }
+
         public EquipmentItemListViewModel EquipmentItem
         {
             get

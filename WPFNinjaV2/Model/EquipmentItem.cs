@@ -12,7 +12,7 @@ namespace WPFNinjaV2.Model
         public static String SHOULDERS = "Shoulders";
         public static String CHEST = "Chest";
         public static String BELT = "Belt";
-        public static String LEGS = "legs";
+        public static String LEGS = "Legs";
         public static String BOOTS = "Boots";
 
         public int id { get; set; }

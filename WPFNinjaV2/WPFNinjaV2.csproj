@@ -100,17 +100,12 @@
     <Compile Include="SecondWindow.xaml.cs">
       <DependentUpon>SecondWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\ISongRepository.cs" />
-    <Compile Include="Model\DummySongRepository.cs" />
-    <Compile Include="Model\Song.cs" />
     <Compile Include="ViewModel\EquipmentItemListViewModel.cs" />
     <Compile Include="ViewModel\LoadoutItemViewModel.cs" />
     <Compile Include="ViewModel\InventoryItemViewModel.cs" />
     <Compile Include="ViewModel\EquipmentItemViewModel.cs" />
     <Compile Include="ViewModel\InventoryListViewModel.cs" />
     <Compile Include="ViewModel\NinjaViewModel.cs" />
-    <Compile Include="ViewModel\SongViewModel.cs" />
-    <Compile Include="ViewModel\SongListViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
     <Compile Include="ViewModel\WindowsViewModel.cs" />
     <Compile Include="WindowManager.xaml.cs">
@@ -160,6 +155,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
